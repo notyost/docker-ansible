@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 
-MAINTAINER aherrera
+MAINTAINER aherrera@mgage.com
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y software-properties-common && \
