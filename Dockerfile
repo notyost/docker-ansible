@@ -13,3 +13,6 @@ RUN apt-get update && \
     pip install --upgrade pip &&\
     pip install -U distribute ansible==2.1.0 boto boto3
     # ansible 2.1.0 fail: https://github.com/ansible/ansible/issues/16015
+
+ENV PYTHONUNBUFFERED=1
+ENV ANSIBLE_FORCE_COLOR=true
