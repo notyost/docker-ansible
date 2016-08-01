@@ -9,6 +9,7 @@ RUN apk update &&\
             git \
             libffi-dev \
             musl-dev \
+            openssh-client \
             openssl-dev \
             py-pip \
             sshpass &&\
