@@ -1,4 +1,4 @@
 mGage-docker-ansible
 =========
 
-This is the dockerfile that is used to build the current docker image for Ansible.
+These are the dockerfiles that are used to build the current docker images for Ansible.
